@@ -62,8 +62,8 @@ if __name__ == "__main__":
     total_palabras, contador_frecuencias = contador.contar_palabras()
     print(f"Total palabras: {total_palabras}")
     
-    mas_comunes = contador_frecuencias.most_common(10)
-    print(f"Las 10 palabras más frecuentes son:")
+    mas_comunes = contador_frecuencias.most_common(20)
+    print(f"Las 20 palabras más frecuentes son:")
     for palabra, freq in mas_comunes:
         print(f"{palabra}: {freq}")
 
